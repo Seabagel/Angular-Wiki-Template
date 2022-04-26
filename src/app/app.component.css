@@ -8,36 +8,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 8px 0 6px;
-}
-
-h1 {
-  margin-bottom: 16px;
-}
-
-p {
-  margin: 0;
-}
-
-ol,
-ul {
-  margin-top: 2px;
-}
-
-ul ol{
-  margin: 4px 0;
-}
-
-li {
-    margin: 4px 0;
-}
-
 .spacer {
   flex: 1;
 }
