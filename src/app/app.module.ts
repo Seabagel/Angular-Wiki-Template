@@ -2,21 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { GeneralMeshManipulationComponent } from './pages/general-mesh-manipulation/general-mesh-manipulation.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NavigationComponent } from './shared/navigation/navigation.component';
+import { ModifiersComponent } from './pages/blender/modifiers/modifiers.component';
+import { MeshManipulationComponent } from './pages/blender/mesh-manipulation/mesh-manipulation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    GeneralMeshManipulationComponent
+    ModifiersComponent,
+    MeshManipulationComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
