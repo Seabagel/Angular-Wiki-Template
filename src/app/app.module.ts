@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { GeneralMeshManipulationComponent } from './pages/general-mesh-manipulation/general-mesh-manipulation.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { GeneralMeshManipulationComponent } from './pages/general-mesh-manipulat
     GeneralMeshManipulationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
