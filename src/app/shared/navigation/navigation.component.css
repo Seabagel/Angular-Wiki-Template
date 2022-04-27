@@ -1,24 +1,73 @@
-
 .toolbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #1976d2;
-    color: white;
-    font-weight: 600;
-  }
-  
-  .toolbar span {
-    margin: 0 4px;
-  }
-  
-  .toolbar img {
-    margin: 0 16px;
-    cursor: pointer;
-    user-select: none;
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar span {
+  margin: 0 4px;
+}
+
+.toolbar img {
+  margin: 0 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.spacer {
+  flex: 1;
+}
+
+#breadcrumb-main {
+  cursor: pointer;
+}
+
+#breadcrumb-subcategory {
+  cursor: pointer;
+  margin: 0 8px 0 2px;
+}
+
+.mainlink {
+  position: fixed;
+  width: 399px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: #272c31;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.mainlink ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mainlink ul li {
+  margin: 0;
+  list-style: none;
+  padding: 1em;
+  border: 1px solid grey;
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 2px;
+}
+
+.success {
+  left: -420px;
+}
+
+.danger {
+  left: 0;
+}
